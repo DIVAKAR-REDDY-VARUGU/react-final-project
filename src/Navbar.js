@@ -48,7 +48,7 @@ export default class NavBar extends React.Component{
                 <span className='dropDownMenu' ref={this.dropDown} onClick={this.menuClick} >
                     <li className='main--portals--wrapper'>
                         <ul className='page-portals--wrapper'>
-                        <Link to='/'> <li className='unactive' id='Dashboard' ref={this.Dashboard} onClick={()=>this.portalClick('Dashboard')}><i className="fas fa-tachometer-alt"></i> <br/> Dashboard</li></Link>
+                        <Link to='/'> <li className='unactive' id='Dashboard' ref={this.Dashboard}><i className="fas fa-tachometer-alt"></i> <br/> Dashboard</li></Link>
                             <li className='unactive' id='Reports' onClick={()=>this.portalClick('Reports')}><i className="far fa-file-alt"></i> <br/> Reports</li>
                             <Link to='/Product'><li className='unactive' id='Products' ref={this.Products} onClick={()=>this.portalClick('Products')}><i className="fas fa-shopping-cart"></i> <br/> Products</li></Link>
                             <Link to='/Account'><li className='unactive' id='Accounts' ref={this.Accounts} onClick={()=>this.portalClick('Accounts')}><i className="far fa-user"></i> <br/> Accounts</li></Link>
