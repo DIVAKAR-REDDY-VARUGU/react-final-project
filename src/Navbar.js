@@ -45,7 +45,7 @@ export default class NavBar extends React.Component{
             <ul className='navbar--wrapper'>
                 <div><Link to='/' className='logo'>PRODUCT ADMIN</Link></div>
                 <div className='topbar--menu' onClick={this.menuClick}><i class="fas fa-bars menubar"></i></div>
-                <span className='dropDownMenu' ref={this.dropDown} onClick={this.menuClick} >
+                <span className='dropDownMenu' ref={this.dropDown}  >
                     <li className='main--portals--wrapper'>
                         <ul className='page-portals--wrapper'>
                         <Link to='/'> <li className='unactive' id='Dashboard' ref={this.Dashboard} onClick={()=>this.portalClick('Dashboard')}><i className="fas fa-tachometer-alt"></i> <br/> Dashboard</li></Link>
